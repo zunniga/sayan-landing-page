@@ -1,0 +1,68 @@
+<!-- filepath: d:\Ecomás\cimade-website\public\flags\internacional.svg -->
+<svg width="32" height="24" viewBox="0 0 32 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo base -->
+  <rect width="32" height="24" rx="2" fill="url(#gradient)" stroke="#E5E7EB" stroke-width="0.5"/>
+  
+  <!-- Gradiente de fondo -->
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1E5AC8;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#2C72FF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#40C8F8;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Gradiente para el globo -->
+    <radialGradient id="globeGradient" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#FFFFFF;stop-opacity:0.6" />
+    </radialGradient>
+    
+    <!-- Patrón de puntos para efecto de conexión -->
+    <pattern id="dots" patternUnits="userSpaceOnUse" width="4" height="4">
+      <circle cx="2" cy="2" r="0.5" fill="white" opacity="0.3"/>
+    </pattern>
+  </defs>
+  
+  <!-- Efecto de puntos de fondo -->
+  <rect width="32" height="24" fill="url(#dots)" opacity="0.4"/>
+  
+  <!-- Globo terráqueo central -->
+  <circle cx="16" cy="12" r="8" fill="url(#globeGradient)" stroke="white" stroke-width="0.5" opacity="0.9"/>
+  
+  <!-- Líneas de latitud -->
+  <ellipse cx="16" cy="12" rx="8" ry="3" fill="none" stroke="white" stroke-width="0.5" opacity="0.7"/>
+  <ellipse cx="16" cy="12" rx="8" ry="6" fill="none" stroke="white" stroke-width="0.3" opacity="0.5"/>
+  
+  <!-- Líneas de longitud -->
+  <ellipse cx="16" cy="12" rx="3" ry="8" fill="none" stroke="white" stroke-width="0.5" opacity="0.7"/>
+  <ellipse cx="16" cy="12" rx="6" ry="8" fill="none" stroke="white" stroke-width="0.3" opacity="0.5"/>
+  
+  <!-- Continentes simplificados -->
+  <g opacity="0.8">
+    <!-- América -->
+    <ellipse cx="13" cy="10" rx="1.5" ry="3" fill="white" opacity="0.6"/>
+    <ellipse cx="12.5" cy="14" rx="1" ry="2" fill="white" opacity="0.6"/>
+    
+    <!-- Europa/África -->
+    <ellipse cx="16.5" cy="9" rx="1" ry="2" fill="white" opacity="0.6"/>
+    <ellipse cx="17" cy="13" rx="1.2" ry="2.5" fill="white" opacity="0.6"/>
+    
+    <!-- Asia -->
+    <ellipse cx="19" cy="10" rx="1.8" ry="2.5" fill="white" opacity="0.6"/>
+  </g>
+  
+  <!-- Efecto de brillo superior -->
+  <ellipse cx="16" cy="8" rx="6" ry="2" fill="white" opacity="0.2"/>
+  
+  <!-- Esquinas decorativas -->
+  <circle cx="4" cy="4" r="1" fill="white" opacity="0.3"/>
+  <circle cx="28" cy="4" r="1" fill="white" opacity="0.3"/>
+  <circle cx="4" cy="20" r="1" fill="white" opacity="0.3"/>
+  <circle cx="28" cy="20" r="1" fill="white" opacity="0.3"/>
+  
+  <!-- Conectores (líneas que van desde las esquinas hacia el centro) -->
+  <line x1="4" y1="4" x2="10" y2="8" stroke="white" stroke-width="0.5" opacity="0.4"/>
+  <line x1="28" y1="4" x2="22" y2="8" stroke="white" stroke-width="0.5" opacity="0.4"/>
+  <line x1="4" y1="20" x2="10" y2="16" stroke="white" stroke-width="0.5" opacity="0.4"/>
+  <line x1="28" y1="20" x2="22" y2="16" stroke="white" stroke-width="0.5" opacity="0.4"/>
+</svg>
