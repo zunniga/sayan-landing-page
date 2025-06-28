@@ -1,5 +1,5 @@
 export const heroStatsPE = [
-  { number: "12+", label: "Años de experiencia" },
+  { number: "5+", label: "Años de experiencia" },
   { number: "3,500+", label: "Graduados exitosos" },
   { number: "45+", label: "Programas especializados" },
   { number: "96%", label: "Satisfacción estudiantil" }
@@ -7,23 +7,19 @@ export const heroStatsPE = [
 
 export const partnershipsPE = [
   {
-    name: "Universidad San Marcos",
+    name: "COLEGIO DE INGENIEROS DEL PERÚ",
     type: "Alianza Académica",
-    logo: "/peru/partner/ECOMÁS.png"
+    logo: "/es/logos/colegio.png"
   },
   {
-    name: "TECSUP",
-    type: "Colaboración Técnica",
-    logo: "/peru/partner/ECOMÁS.png"
+    name: "FUNDENORP",
+    type: "Alianza Académica",
+    logo: "/es/logos/fundenorp.png"
   },
   {
-    name: "Cámara de Comercio de Lima",
-    type: "Vinculación Empresarial",
-    logo: "/peru/partner/ECOMÁS.png"
+    name: "Universidad Nacional de Piura",
+    type: "Alianza Académica",
+    logo: "/es/logos/universidad.png"
   },
-  {
-    name: "SNI",
-    type: "Desarrollo Industrial",
-    logo: "/peru/partner/ECOMÁS.png"
-  }
+
 ];

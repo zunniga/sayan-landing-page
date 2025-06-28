@@ -40,7 +40,7 @@ export const countries: Record<string, CountryConfig> = {
     currency: 'PEN',
     phone: '+51',
     address: 'Lima, Perú',
-    email: 'capacitaciones@cimade.edu.pe',
+    email: 'capacitaciones@sayan.edu.pe',
     whatsapp: '+51900102090',
     socialMedia: {
       facebook: 'https://www.facebook.com/CimadeEC',
@@ -57,7 +57,7 @@ export const countries: Record<string, CountryConfig> = {
     currency: 'COP',
     phone: '+57',
     address: 'Bogotá, Colombia',
-    email: 'contacto@cimade.edu.co',
+    email: 'contacto@sayan.edu.co',
     whatsapp: '+57987654321',
     socialMedia: {
       facebook: 'https://www.facebook.com/CimadeEC',
@@ -75,7 +75,7 @@ export const countries: Record<string, CountryConfig> = {
     currency: 'USD',
     phone: '+57',
     address: 'Bogotá, Colombia',
-    email: 'contacto@cimade.edu.co',
+    email: 'contacto@sayan.edu.co',
     whatsapp: '+57987654321',
     isGlobal: true,
     socialMedia: {

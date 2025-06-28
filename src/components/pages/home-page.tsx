@@ -4,7 +4,7 @@ import React from "react";
 import HeroCarousel from "@/components/sections/inicio/hero-carousel";
 import { FirstSection } from "@/components/sections/inicio/certificate-section";
 import { FeaturedCourses } from "@/components/sections/inicio/featured-courses";
-import { Testimonials } from "@/components/sections/inicio/testimonials";
+import  Testimonials  from "@/components/sections/inicio/testimonials";
 import { RectangularInfo } from "@/components/sections/inicio/rectangular-info";
 import { FeaturedDiplomas } from "@/components/sections/inicio/featured-diplomas";
 import type { HeroSlide, Testimonial } from "@/types";
@@ -27,7 +27,6 @@ export default function HomeLayout({
   countryCode,
   countryName,
   featuredCourses,
-  testimonials,
   featuredDiplomas,
 }: HomeLayoutProps) {
   return (
@@ -42,7 +41,7 @@ export default function HomeLayout({
         <div className="max-w-[1200px] mx-auto">
           {/* Certificate Section - Nueva sección */}
           <section>
-            <FirstSection />
+            <FirstSection  countryCode={countryCode} />
           </section>
 
           {/* Featured Courses */}
@@ -55,7 +54,7 @@ export default function HomeLayout({
           </section>
 
           <section>
-            <Testimonials testimonials={testimonials} />
+            <Testimonials />
           </section>
           <section>
             <FeaturedCourses

@@ -1,5 +1,5 @@
 export const heroStatsCO = [
-  { number: "15+", label: "Años de experiencia" },
+  { number: "5+", label: "Años de experiencia" },
   { number: "5,000+", label: "Graduados exitosos" },
   { number: "50+", label: "Programas especializados" },
   { number: "95%", label: "Satisfacción estudiantil" }
